@@ -16,7 +16,6 @@ public class Main {
 
         var device1 =  new DeviceCtrl(checker, sensor, bulb1);
         var device2 =  new DeviceCtrl(checker, sensor, bulb2);
-        checker.subscribe();
 
         checker.checkKey("Ahmed", "123");
         checker.checkKey("Ahmed", "123");
